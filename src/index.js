@@ -6,7 +6,7 @@ import zahl from "zahl"
 /**
  * @class
  */
-export default class {
+export default class LogWatcherPlugin {
 
   /**
    * @constructor
@@ -24,7 +24,7 @@ export default class {
       const changedTimes = compiler.watchFileSystem.watcher.mtimes
       const changedFiles = Object.keys(changedTimes).map(time => time.file)
       if (changedFiles.length) {
-        console.log(title("File changes:"), files(changedFiles))
+        console.log(`${chalk.bold.green(`${zahl(changedFiles, "changed file")}:`)} ${changedFiles.join(", ")}`)
       }
     })
   }
