@@ -36,5 +36,5 @@
     "prepareActionJest": "npm run build:prod"
   },
   "name": "log-watcher-webpack-plugin",
-  "description": "Webpack plugin that outputs changed fi  les to console. This is useful to find out what file changes trigger unexpected recompiles."
+  "description": "Webpack plugin that outputs changed files to console. This is useful to find out what file changes trigger unexpected recompiles."
 }
