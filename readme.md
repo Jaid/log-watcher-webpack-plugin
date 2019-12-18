@@ -6,11 +6,11 @@ Webpack plugin that outputs changed files to console. This is useful to find out
 ## Installation
 <a href='https://npmjs.com/package/log-watcher-webpack-plugin'><img alt='npm logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/npm.png'/></a>
 ```bash
-npm install --save-dev log-watcher-webpack-plugin@^1.0.2
+npm install --save-dev log-watcher-webpack-plugin@^1.0.4
 ```
 <a href='https://yarnpkg.com/package/log-watcher-webpack-plugin'><img alt='Yarn logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/yarn.png'/></a>
 ```bash
-yarn add --dev log-watcher-webpack-plugin@^1.0.2
+yarn add --dev log-watcher-webpack-plugin@^1.0.4
 ```
 
 
