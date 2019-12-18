@@ -21,7 +21,10 @@ export default class LogWatcherPlugin {
    */
   apply(compiler) {
     compiler.hooks.watchRun.tap("watch-run", () => {
-      const changedTimes = compiler.watchFileSystem.watcher.mtimes
+      const changedTimes = compiler.watchFileSystem?.watcher?.mtimes
+      if (!changedTimes) {
+        return
+      }
       const changedFiles = Object.keys(changedTimes)
       if (changedFiles.length) {
         const prefix = chalk.bold.green(`${zahl(changedFiles, "changed file")}:`)
