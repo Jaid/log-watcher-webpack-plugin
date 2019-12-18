@@ -1,7 +1,7 @@
 # log-watcher-webpack-plugin
 
 
-Webpack plugin that outputs changed fi  les to console. This is useful to find out what file changes trigger unexpected recompiles.
+Webpack plugin that outputs changed files to console. This is useful to find out what file changes trigger unexpected recompiles.
 
 ## Installation
 <a href='https://npmjs.com/package/log-watcher-webpack-plugin'><img alt='npm logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/npm.png'/></a>
