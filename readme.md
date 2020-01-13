@@ -1,9 +1,9 @@
 # log-watcher-webpack-plugin
 
 
-<a href="https://raw.githubusercontent.com/Jaid/log-watcher-webpack-plugin/master/license.txt"><img src="https://img.shields.io/github/license/Jaid/log-watcher-webpack-plugin?style=flat-square" alt="License"/></a>  
-<a href="https://actions-badge.atrox.dev/Jaid/log-watcher-webpack-plugin/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2FJaid%2Flog-watcher-webpack-plugin%2Fbadge" alt="Build status"/></a> <a href="https://github.com/Jaid/log-watcher-webpack-plugin/commits"><img src="https://img.shields.io/github/commits-since/Jaid/log-watcher-webpack-plugin/v1.0.4?style=flat-square&logo=github" alt="Commits since v1.0.4"/></a> <a href="https://github.com/Jaid/log-watcher-webpack-plugin/commits"><img src="https://img.shields.io/github/last-commit/Jaid/log-watcher-webpack-plugin?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/Jaid/log-watcher-webpack-plugin/issues"><img src="https://img.shields.io/github/issues/Jaid/log-watcher-webpack-plugin?style=flat-square&logo=github" alt="Issues"/></a>  
-<a href="https://npmjs.com/package/log-watcher-webpack-plugin"><img src="https://img.shields.io/npm/v/log-watcher-webpack-plugin?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/Jaid/log-watcher-webpack-plugin/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/log-watcher-webpack-plugin?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/log-watcher-webpack-plugin"><img src="https://img.shields.io/npm/dm/log-watcher-webpack-plugin?style=flat-square&logo=npm" alt="Downloads"/></a>
+<a href="https://raw.githubusercontent.com/jaid/log-watcher-webpack-plugin/master/license.txt"><img src="https://img.shields.io/github/license/jaid/log-watcher-webpack-plugin?style=flat-square" alt="License"/></a> <a href="https://github.com/sponsors/jaid"><img src="https://img.shields.io/badge/<3-Sponsor-FF45F1?style=flat-square" alt="Sponsor log-watcher-webpack-plugin"/></a>
+<a href="https://actions-badge.atrox.dev/jaid/log-watcher-webpack-plugin/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2Fjaid%2Flog-watcher-webpack-plugin%2Fbadge" alt="Build status"/></a> <a href="https://github.com/jaid/log-watcher-webpack-plugin/commits"><img src="https://img.shields.io/github/commits-since/jaid/log-watcher-webpack-plugin/v1.0.4?style=flat-square&logo=github" alt="Commits since v1.0.4"/></a> <a href="https://github.com/jaid/log-watcher-webpack-plugin/commits"><img src="https://img.shields.io/github/last-commit/jaid/log-watcher-webpack-plugin?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/jaid/log-watcher-webpack-plugin/issues"><img src="https://img.shields.io/github/issues/jaid/log-watcher-webpack-plugin?style=flat-square&logo=github" alt="Issues"/></a>  
+<a href="https://npmjs.com/package/log-watcher-webpack-plugin"><img src="https://img.shields.io/npm/v/log-watcher-webpack-plugin?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/jaid/log-watcher-webpack-plugin/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/log-watcher-webpack-plugin?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/log-watcher-webpack-plugin"><img src="https://img.shields.io/npm/dm/log-watcher-webpack-plugin?style=flat-square&logo=npm" alt="Downloads"/></a>
 
 **Webpack plugin that outputs changed files to console. This is useful to find out what file changes trigger unexpected recompiles.**
 
@@ -37,14 +37,13 @@ yarn add --dev log-watcher-webpack-plugin@^1.0.4
 
 
 
-
 ## Development
 
 
 
 Setting up:
 ```bash
-git clone git@github.com:Jaid/log-watcher-webpack-plugin.git
+git clone git@github.com:jaid/log-watcher-webpack-plugin.git
 cd log-watcher-webpack-plugin
 npm install
 ```
