@@ -35,12 +35,26 @@
     "prepareActionJest": "npm run build:prod"
   },
   "name": "log-watcher-webpack-plugin",
-  "description": "Webpack plugin that outputs changed files to console. This is useful to find out what file changes trigger unexpected recompiles.",
+  "description": "Webpack plugin that outputs changed files to console. This is useful to find out what file changes trigger the recompilation.",
   "funding": "https://github.com/sponsors/jaid",
   "repository": {
     "type": "git",
     "url": "https://github.com/jaid/log-watcher-webpack-plugin"
   },
-  "homepage": "",
-  "keywords": []
+  "homepage": "https://github.com/Jaid/log-watcher-webpack-plugin",
+  "keywords": [
+    "debug",
+    "debugging",
+    "log",
+    "logger",
+    "logging",
+    "util",
+    "utility",
+    "watcher",
+    "webpack",
+    "webpack-dev-middleware",
+    "webpack-dev-server",
+    "webpack-hmr",
+    "webpack-plugin"
+  ]
 }
