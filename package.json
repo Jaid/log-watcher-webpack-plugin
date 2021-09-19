@@ -56,5 +56,6 @@
     "webpack-dev-server",
     "webpack-hmr",
     "webpack-plugin"
-  ]
+  ],
+  "type": "module"
 }
